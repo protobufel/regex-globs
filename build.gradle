@@ -47,7 +47,7 @@ if (project.hasProperty('ossrhUsername')) {
                     name 'globs'
                     packaging 'jar'
                     description 'OpenJDK 7 Globs Repackaged and Minimally Modified'
-                    url 'https://github.com/protobufel/multikeymapjava'
+                    url 'https://github.com/protobufel/regex-globs'
 
                     scm {
                         connection 'scm:git:https://github.com/protobufel/regex-globs.git'
@@ -57,8 +57,8 @@ if (project.hasProperty('ossrhUsername')) {
 
                     licenses {
                         license {
-                            name 'The Apache License, Version 2.0'
-                            url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                            name 'GNU General Public License (GPL), version 2, with the Classpath exception'
+                            url 'http://openjdk.java.net/legal/gplv2+ce.html'
                         }
                     }
 
